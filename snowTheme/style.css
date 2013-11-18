@@ -93,7 +93,6 @@ audio:not([controls]) {
 
 html {
 	font-size: 100%;
-	font-family: 'christmas_giftregular';
 	overflow-y: scroll;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -107,7 +106,7 @@ textarea {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
-/*font import below*;
+/*font imports below*;
 @font-face {
     font-family: 'snow_timesregular';
     src: url('fonts/snow_times-webfont.eot');
@@ -119,6 +118,18 @@ textarea {
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'timeless';
+    src: url('fonts/timeless-webfont.eot');
+    src: url('fonts/timeless-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/timeless-webfont.woff') format('woff'),
+         url('fonts/timeless-webfont.ttf') format('truetype'),
+         url('fonts/timeless-webfont.svg#timelessregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 body {
 	color: #141412;
@@ -883,7 +894,7 @@ div.nav-menu > ul {
 
 .nav-menu li:hover > a,
 .nav-menu li a:hover {
-	background-color: #220e10;
+	background-color: #33CCFF;
 	color: #fff;
 }
 
@@ -1025,11 +1036,13 @@ ul.nav-menu li:hover > ul,
 
 .entry-header {
 	margin-bottom: 30px;
+	font-family: 'snow_timesregular';
 }
 
 .entry-title {
 	font-weight: normal;
 	margin: 0 0 5px;
+	font-family: 'timeless', serif;
 }
 
 .entry-title a {
@@ -1049,6 +1062,7 @@ ul.nav-menu li:hover > ul,
 .entry-meta {
 	clear: both;
 	font-size: 14px;
+	font-family: 'timeless', serif;
 }
 
 .entry-meta a {
@@ -1126,6 +1140,7 @@ ul.nav-menu li:hover > ul,
 	-ms-hyphens:     auto;
 	hyphens:         auto;
 	word-wrap: break-word;
+	font-family: 'timeless', serif;
 }
 
 .entry-content a,
@@ -2533,6 +2548,7 @@ footer.entry-meta {
 	color: #686758;
 	font-size: 14px;
 	text-align: center;
+	font-family: 'timeless', serif;
 }
 
 .site-footer .widget-area,
